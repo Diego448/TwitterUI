@@ -1,0 +1,768 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+body, html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 1676px;
+	height: 1800px;
+	background-image: url("Background.png");
+	background-color: #c2dfee;
+	background-repeat: no-repeat;
+}
+header {
+	width: 1676px;
+	height: 40px;
+	background-color: black;
+	background: url("ruidochido.png"), linear-gradient(#393939, #282828);
+}
+#main {
+	width: 835px;
+	height: 1745px;
+	margin: auto;
+	background-color: rgba(255, 255, 255, 0.3);
+	padding: 15px 15px 0;
+}
+html {
+	background-color: gray;
+}
+nav {
+	width: 360px;
+	height: 40px;
+	margin-left: 401px;
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+}
+ul {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+li {
+	line-height:40px;
+	display: inline-block;
+	padding: 0 5px 0 33px;
+	font-family: "Lato", sans-serif;
+	color: #bbbbbb;
+	text-shadow: 0px -1px 0px rgb(0, 0, 0);
+	cursor: pointer;
+}
+li:first-child {
+	background-image: url("houseicon.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-position-x: 8px;
+}
+li:nth-child(2) {
+	background-image: url("aticon.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-position-x: 8px;
+}
+li:nth-child(3) {
+	background-image: url("hashicon.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-position-x: 8px;
+}
+li:nth-child(4) {
+	background-image: url("personicon.png");
+	background-repeat: no-repeat;
+	
+	background-position: left;
+	background-position-x: 8px;
+}
+header div {
+	width: 565px;
+	height: 40px;
+	float: right;
+	margin-right: 350px;
+}
+header a {
+	margin-top: 2px;
+	background-image: url("twittericon.png");
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: left;
+	margin-left: 13px;
+	margin-right: 27px;
+	float:  left;
+}
+header form {
+	float: left;
+	height: 40px;
+	margin-left: 80px;
+	margin-right: 10px; 
+}
+header input {
+	height: 24px;
+	margin-top: 7px;
+	border-radius: 20px;
+	border: 0;
+	width: 202px;
+	opacity: 0.5;
+	background-image: url("glass.png");
+	background-repeat: no-repeat;
+	background-position-x: 180px;
+	background-position-y: center;
+	font-family: "Lato", sans-serif;
+}
+li:nth-child(4):active {
+	background-image: url("personiconactive.png");
+	background-color: black;
+}
+li:nth-child(4):hover {
+	background-image: url("personiconactive.png");
+}
+#cog {
+	float: left;
+	height: 26px;
+	margin-left: 10px; 
+	margin-right: 10px;
+	width: 55px;
+	background-color: yellow;
+	margin-top: 7px;
+	background: url("cogicon.png") 10px center, url("arrowicon.png") 36px center;
+	background-repeat: no-repeat;
+	-webkit-border-left: 2px groove black;
+	-webkit-border-right: 2px groove black;
+	border-left: 2px groove black;
+	border-right: 2px groove black;
+}
+#other {
+	float: left;
+	height: 26px;
+	margin-left: 5px; 
+	margin-right: 15px;
+	width: 34px;
+	background-color: yellow;
+	margin-top: 7px;
+	background: url("backgroundicon.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	border: 1px solid black;
+	border-radius: 3px;
+	box-shadow: 0px 0px 1px 0px black;
+}
+#other2 {
+	float: left;
+	height: 26px;
+	margin-left: 5px; 
+	margin-right: 0px;
+	width: 34px;
+	background-color: yellow;
+	margin-top: 7px;
+	background: url("othericon2.png") 10px center;
+	background-repeat: no-repeat;
+}
+header article {
+	cursor: pointer;
+}
+#main aside {
+	width: 300px;
+	height: 1745px;
+	float: left;
+}
+#main section {
+	width: 520px;
+	height: 1745px;
+	float: right;
+}
+#tweets {
+	width: 300px;
+	height: 165px;
+	display: table;
+	margin-bottom: 12px;
+	border-spacing: 0;
+	border-collapse: collapse;
+	font-size: 14px;
+}
+#tweets p {
+	display: table-row;
+	background-color: white;
+}
+#tweets a {
+	display: table-cell;
+	border: 1px solid #bed1da;
+	text-decoration: none;
+	color: #0084b4;
+	font-family: "Lato", sans-serif;
+	padding-left: 12px;
+	vertical-align: middle;
+	background-image: url("arrowicon2.png");
+	background-position: right;
+	background-position-x: 276px;
+	background-repeat: no-repeat;
+}
+#tweets p:first-of-type a {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color: black;
+	font-weight: bold;
+}
+#tweets p:last-of-type a {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+#tweet {
+	width: 274px;
+	height: 54px;
+	background-color: white;
+	padding: 12px;
+	border-radius: 5px;
+	border: 1px solid #bed1da;
+	margin-bottom: 12px;
+}
+#tweet p {
+	padding: 0;
+	margin: 0px;
+	font-weight: bold;
+	font-size: 14px;
+}
+#tweet input {
+	width: 100%;
+	height: 22px;
+	border-radius: 2px;
+	border: 1px solid #cccccc;
+}
+#tweet p:last-of-type {
+	margin-top: 9px;
+}
+#galeria {
+	width: 276px;
+	height: 186px;
+	padding: 11px;
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid #bed1da;
+	margin-bottom: 12px;
+}
+#galeria div {
+	width: 90px;
+	height: 90px;
+	margin: 1px;
+	background: gray;
+	float: left;
+}
+#similar {
+	width: 298px;
+	height: 166px;
+	background-color: white;
+	padding: 12px;
+	border: 1px solid #bed1da;
+	border-radius: 5px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	background-image: url("other3icon.png");
+	background-repeat: no-repeat;
+	background-position: 12px 45px;
+	margin-bottom: 12px;
+}
+#similar p {
+	margin: 0px;
+	margin-top: 12px;
+}
+#similar p span:last-of-type {
+	display: block;
+	padding-left: 56px;
+	color: #0084b4;
+}
+#similar p span:first-of-type {
+	padding-left: 56px;
+}
+#similar p:first-of-type {
+	height: 32px;
+	margin-top: 0;
+	margin-bottom: 0;
+	border-bottom: 1px solid #e8e8e8;
+	background-image: url("arrowicon2.png");
+	background-position: right;
+	background-position-x: 276px;
+	background-repeat: no-repeat;
+}
+#similar p:nth-of-type(2) {
+	margin-top: 10px;
+}
+#similar a{
+	margin-top: 4px;
+	line-height: 32px;
+	padding-left: 12px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 14px;
+}
+#foot {
+	padding: 16px 12px;
+	width: 274px;
+	height: 80px;
+	background-color: white;
+	border: 1px solid #bed1da;
+	border-radius: 5px;
+}
+#foot p {
+	margin: 0;
+	line-height: 24px;
+	text-align: left;
+	color: #c1bfbf;
+}
+#user {
+	width: 518px;
+	height: 308px;
+	background-color: white;
+	border: 1px solid #bed1da;
+	border-radius: 5px;
+	margin-bottom: 12px;
+}
+#post {
+	width: 518px;
+	height: 554px;
+	background-color: white;
+	border: 1px solid #bed1da;
+	border-radius: 5px;
+	padding-top: 13px;
+	background-image: url("usericon.png");
+	background-position-x: 12px;
+	background-position-y: 57px;
+	background-repeat: no-repeat;
+	margin-bottom: 12px;
+}
+#user div:first-of-type {
+	padding: 20px 60px;
+	background-color: #999999;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	width: 398px;
+	height: 221px;
+
+}
+#user div:last-of-type {
+	height: 50px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+#user div:first-of-type img {
+	display: block;
+	width: 73px;
+	height: 73px;
+	margin-left: 159px;
+	border: 5px solid white; 
+	border-radius: 5px;
+	background-color: gray;
+}
+#user div:first-of-type h2 {
+	margin: 0;
+	margin-top: 10px;
+	text-align: center;
+	color: white;
+	text-weight: bold;
+}
+#user div:first-of-type h3 {
+	margin: 0;
+	text-align: center;
+	color: white;
+	text-weight: bold;
+}
+#user div:first-of-type p {
+	margin: 0;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+}
+#user div:last-of-type p:first-of-type {
+	width: 39px;
+	height: 26px;
+	padding: 12px 30px 12px 12px;
+	margin: 0;
+	float: left;
+	font-size: 12px;
+	border-right: 1px solid #e8e8e8;
+}
+#user div:last-of-type p:nth-of-type(2) {
+	width: 62px;
+	height: 26px;
+	padding: 12px 30px 12px 12px;
+	margin: 0;
+	float: left;
+	font-size: 12px;
+	border-right: 1px solid #e8e8e8;
+}
+#user div:last-of-type p:nth-of-type(3) {
+	width: 62px;
+	height: 26px;
+	padding: 12px 30px 12px 12px;
+	margin: 0;
+	float: left;
+	font-size: 12px;
+}
+#button1 {
+	width: 36px;
+	height: 28px;
+	margin-top: 9px;
+	float: right;
+	border-radius: 2px;
+	margin-right: 4px;
+	border: 1px solid #cccccc;
+	background: url("userarrowicon.png") center center, linear-gradient(#fdfdfd, #dfdfdf);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#button2 {
+	width: 85px;
+	height: 28px;
+	margin-top: 9px;
+	float: right;
+	border-radius: 2px;
+	margin-right: 10px;
+	border: 1px solid #ccc;
+	text-align: right;
+	background: url("twittericon2.png") 10px 6px, linear-gradient(#fdfdfd, #dfdfdf);
+	background-repeat: no-repeat;
+	font-weight: bold;
+}
+#post p:first-child {
+	margin: 0;
+	height: 28px;
+	background-color: white;
+	padding-left: 12px;
+	border-bottom: 1px solid #e8e8e8;
+	font-weight: bold;
+	font-size: 18px;
+}
+#post p, #post h2 {
+	margin: 0;
+}
+#user div p {
+	color: #e8e8e8;
+}
+#user div span {
+	font-weight: bold;
+	color: black;
+}
+#postprincipal {
+	width: 450px;
+	margin-left: 68px;
+	height: 445px;
+	background-color: white;
+}
+#postpie {
+	height: 54px;
+	background-color: #f6f6f6;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding-left: 70px;
+	padding-top: 14px;
+	padding-right: 12px;
+}
+#postimagen {
+	width: 320px;
+	height: 240px;
+	background-color: silver;
+	margin-bottom: 20px;
+	margin-top: 5px;
+}
+#post h2 {
+	margin-top: 12px;
+	font-size: 14px;
+	margin-bottom: 4px;
+}
+#postpieimagen {
+	height: 46px;
+	background-color: white;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin-right: 12px;
+	margin-bottom: 20px;
+	background-image: url("usuarioicon.png");
+	background-repeat: no-repeat;
+	background-position: 180px 10px;
+}
+#postpie input {
+	width: 430px;
+	height: 36px;
+	border: 1px solid #cccccc;
+}
+.negrita {
+	font-weight: bold;
+	color: black;
+}
+.arrova {
+	color: #c6c6c6;
+	font-size: 13px;
+}
+#post h2 + p {
+	line-height: 17px;
+}
+.azul {
+	color: #0084b4;
+}
+#metadatos span {
+	padding-left: 200px;
+}
+#postpieimagen p:first-of-type {
+	width: 39px;
+	height: 26px;
+	padding: 10px 30px 10px 9px;
+	margin: 0;
+	float: left;
+	font-size: 12px;
+	border-right: 1px solid #e8e8e8;
+	font-weight: normal;
+	color: #ccc;
+}
+#postpieimagen p:last-of-type {
+	width: 41px;
+	height: 26px;
+	padding: 10px 30px 10px 9px;
+	margin: 0;
+	float: left;
+	font-size: 12px;
+	border-right: 1px solid #e8e8e8;
+	font-weight: normal;
+	color: #ccc;
+	margin: 0;
+}
+#metadatos {
+	line-height: 16px;
+	color: #b4b4b4;
+}
+#fallo {
+	padding-left: 0;
+}
+#post #acciones {
+	margin-top: 5px;
+}
+#acciones span {
+	padding-left: 18px;
+	padding-right: 7px;
+}
+#verificado {
+	padding-left: 26px;
+	background-image: url("verificado.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-position-x: 4px;
+}
+#similar #promoted {
+	padding: 0;
+	display: inline;
+	color: #ccc;
+	padding-left: 20px;
+	background-image: url("yellowicon.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-right: 5px; 
+}
+#acciones span:first-of-type {
+	background-image: url("foto.png");
+	background-repeat: no-repeat;
+	background-position: left;
+}
+#acciones span:nth-of-type(2) {
+	background-image: url("responder.png");
+	background-repeat: no-repeat;
+	background-position: left;
+}
+#acciones span:nth-of-type(3) {
+	background-image: url("retweet.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 21px;
+}
+#acciones span:last-of-type {
+	background-image: url("estrella.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 13px;
+}
+body {
+	font-family: "Lato", sans-serif;
+	font-size: 12px;
+}
+.derecha {
+	padding-left: 260px;
+}
+#comentarios {
+	height: 276px;
+	border: 1px solid #bed1da;
+	border-radius: 5px;
+	background-color: white;
+	margin-bottom: 15px;
+}
+#comentarios p, #comentarios h2 {
+	margin: 0;
+	padding-left: 70px;
+}
+#comentarios div {
+	height: 83px;
+	border-bottom: 1px solid #e8e8e8;
+	margin-top: 8px;
+	background-image: url("usericon2.png");
+	background-repeat: no-repeat;
+	background-position-x: 12px;
+	background-position-y: 4px;
+}
+#comentarios p {
+	margin: 4px 0;
+	font-size: 12px;
+	line-height: 18px;
+	width: 372px;
+}
+#comentarios h2 span {
+	color: #ccc;
+	font-size: 12px;
+}
+#comentarios h2 {
+	font-size: 14px;
+}
+.hora {
+	float: right;
+	margin-right: 12px;
+}
+.expand {
+	font-size: 11px;
+	color: #ccc;
+	margin-top: 3px;
+}
+#retweet {
+	height: 276px;
+	border: 1px solid #bed1da;
+	border-radius: 5px;
+	background-color: white;
+	background-image: url("retweetother.png");
+	background-repeat: no-repeat;
+	background-position-x: right; 
+}
+#retweet p, #retweet h2 {
+	margin: 0;
+	padding-left: 70px;
+}
+#retweet div:first-of-type {
+	height: 110px;
+	margin-top: 8px;
+	background-image: url("usericon2.png");
+	background-repeat: no-repeat;
+	background-position-x: 12px;
+	background-position-y: 4px;
+}
+#retweet div:first-of-type p:first-of-type {
+	margin: 4px 0;
+	font-size: 12px;
+	line-height: 18px;
+	width: 372px;
+}
+#retweet h2 span {
+	color: #ccc;
+	font-size: 12px;
+}
+#retweet h2 {
+	font-size: 14px;
+}
+.retweeted {
+	font-size: 11px;
+	color: #ccc;
+	margin-top: 3px;
+	padding-left: 15px;
+	background-image: url("retweeted.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-position-x: 70px;
+}
+#retweet .retweeted {
+	padding-left: 90px;
+}
+#acciones2 span{
+	padding-left: 18px;
+	padding-right: 7px;
+}
+#retweet #acciones2 {
+	margin-top: 8px;
+	margin-bottom: 10px;
+}
+#retweetpie {
+	height: 46px;
+	background-color: white;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin-right: 12px;
+	margin-bottom: 12px;
+	background-image: url("usuarioicon.png");
+	background-repeat: no-repeat;
+	background-position: 180px 10px;
+	margin-left: 70px;
+}
+#retweetpie p:first-of-type {
+	width: 39px;
+	height: 26px;
+	padding: 10px 30px 10px 9px;
+	margin: 0;
+	float: left;
+	font-size: 12px;
+	border-right: 1px solid #e8e8e8;
+	font-weight: normal;
+	color: #ccc;
+}
+#retweetpie p:last-of-type {
+	width: 41px;
+	height: 26px;
+	padding: 10px 30px 10px 9px;
+	margin: 0;
+	float: left;
+	font-size: 12px;
+	border-right: 1px solid #e8e8e8;
+	font-weight: normal;
+	color: #ccc;
+	margin: 0;
+}
+#metadatos2 {
+	line-height: 16px;
+	color: #b4b4b4;
+}
+#retweetpie2 {
+	height: 54px;
+	background-color: #f6f6f6;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding-left: 70px;
+	padding-top: 14px;
+	padding-right: 12px;
+	margin-top: 14px;
+}
+#retweetpie2 input {
+	width: 430px;
+	height: 36px;
+	border: 1px solid #cccccc;
+}
+#metadatos2 span {
+	padding-left: 200px;
+}
+#acciones2 span {
+	padding-left: 18px;
+	padding-right: 7px;
+}
+#acciones2 span:first-of-type {
+	padding-left: 0;
+}
+#acciones2 span:nth-of-type(2) {
+	background-image: url("responder.png");
+	background-repeat: no-repeat;
+	background-position: left;
+}
+#acciones2 span:nth-of-type(3) {
+	background-image: url("retweetverde.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 17px;
+	color: green;
+}
+#acciones2 span:last-of-type {
+	background-image: url("estrella.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 13px;
+}
